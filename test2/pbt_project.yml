@@ -1,0 +1,70 @@
+name: SudSQLProject2
+description: ''
+version: 0.0.1
+author: haresh@prophecy.io
+language: sql
+buildSystem: ''
+buildSystemDetails:
+  artefactID: sudsqlproject2
+  parentArtefactID: ''
+  buildSystem: wheel
+  author: null
+  createdAt: '2023-03-20 10:39:04'
+  modifiedAt: '2023-03-20 10:39:04'
+pipelines: {}
+datasets: {}
+templates: {}
+jobs: {}
+functions:
+  author: null
+  createdAt: '2023-03-20 10:39:04'
+  modifiedAt: '2023-03-20 10:39:04'
+  gems: {}
+  udfs: {}
+  udafs: {}
+  expressions: {}
+subgraphs: {}
+sqlModels:
+  .prophecy/metadata/sqlmodels/testModel:
+    name: testModel
+    description: null
+    author: haresh@prophecy.io
+    files:
+    - SudSQLProject2XD2KQon2/models/testModel.sql
+    sqlDependencies:
+      models: []
+      datasets: []
+    createdAt: '2023-03-20 10:39:24'
+    modifiedAt: '2023-03-20 10:39:24'
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources:
+  .prophecy/metadata/sqlsources/prophecy-development_dataset:
+    name: prophecy-development.dataset
+    description: null
+    author: haresh@prophecy.io
+    files:
+    - SudSQLProject2XD2KQon2/prophecy-sources/sources.yml
+    createdAt: '2023-03-20 10:39:33'
+    modifiedAt: '2023-03-20 10:39:33'
+    tables:
+    - name: raw_customers
+      description: null
+      author: haresh@prophecy.io
+      createdAt: '2023-03-20 10:39:33'
+      modifiedAt: '2023-03-20 10:39:44'
+    - name: raw_orders
+      description: null
+      author: haresh@prophecy.io
+      createdAt: '2023-03-20 10:39:35'
+      modifiedAt: '2023-03-20 10:39:44'
+sqlUnreferencedSources: {}
+sqlPipeline:
+  name: sqlPipeline
+  description: null
+  author: haresh@prophecy.io
+  createdAt: '2023-03-20 10:39:04'
+  modifiedAt: '2023-03-20 10:39:04'
+dependencies: '[]'
+projectDependencies: {}
+pipelineConfigurations: {}
